@@ -33,16 +33,16 @@ author: " liu ming "
 title: "{ LIU MING }"
 description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
 keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
-404-img: "/img/labtocat.png"
+favicon: "/img/favicon2.ico"
+404-img: "/img/labtocat2.png"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/favicon2.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/intro-bg3.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -56,10 +56,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "He who seizes the right moment,is the right man."
+  - text: "Nothing seek, nothing find."
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/jetpacktocat2.png"
 
 ##############################
 # Color the browser elements #
@@ -71,7 +71,7 @@ apple-status-bar-style: "black"
 # Web app mode #
 ################
 
-web-app-mode: True
+web-app-mode: False
 
 # Icons for Web App mode
 
@@ -86,7 +86,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 # Blog #
 ########
 
-post-preview-words: 96
+post-preview-words: 3
 
 paginate: 5
 
@@ -101,7 +101,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+#disqus-shortname: "panossakkos"
 
 syntax-highlight: True
 
@@ -130,24 +130,24 @@ email: "648264850@qq.com"
 ##################
 # Social Buttons #
 ##################
-
-social:
-  - title: "facebook"
-    url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/"
-  - title: "github"
-    url: "https://github.com/Pythonker/blog"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
-
+###
+#social:
+#  - title: "facebook"
+#   url: "https://facebook.com/"
+#  - title: "twitter"
+#    url: "https://twitter.com/"
+#  - title: "github"
+#    url: "https://github.com/Pythonker/blog"
+#  - title: "bitcoin"
+#    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+#  - title: "rss"
+#    url: "/feed.xml"
+###
 ############
 # 404 page #
 ############
 
-404-img: "/img/labtocat.png"
+404-img: "/img/labtocat2.png"
 
 ################################################################################
 
@@ -158,7 +158,7 @@ social:
 pages_list:
   About: 'about'
   Blog: 'latest-post'
-  Timeline: 'timeline'
+#  Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
